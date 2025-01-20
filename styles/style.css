@@ -318,7 +318,7 @@
     color: white;
     border: none;
     position: absolute;
-    padding: 15px 25px;
+    padding: 1rem 1.25rem;
     left: 38px;
     top: 155px;
 
@@ -352,4 +352,21 @@
     .stories-card1{
         display: none;
     }
+.mini-cards-container{
+    gap: 10px;
+}
+.stories-cards{
+    padding: 10px;
+    grid-template-columns: repeat(2,100%);
+}
+.mini-card-title{
+    padding: 20px 10px;
+}
+.btn-story-1{
+    padding: 8px 10px;
+    left: 10px;
+    top: 93px;
+
+}
+
 }
