@@ -20,7 +20,7 @@
 
 .fixed-width{
     max-width: 1235px;
-    margin: 20px auto;
+    margin: 0 auto;
 }
 
 .btn-primary{
@@ -45,6 +45,9 @@
     color: #5D58EF;
 }
 /* header styles */
+.header{
+    margin-top: 20px;
+}
 .logo{
     gap: 10px;
     align-items: center;
@@ -78,9 +81,6 @@
     margin: 40px 0 50px;
     justify-content: space-between;
     align-items: center;
-}
-.title-desc{
-    text-align: justify;
 }
 .banner-title{
     font-size: 3.6rem;
@@ -130,4 +130,81 @@
     .humbergur{
         display: block;
     }
+}
+
+
+/* standard curriculam section  */
+.curriculum-container{
+    background-image: url('../assets/bg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: center;
+    padding: 50px 0;
+    height: 879px;
+}
+.curiculam-title{
+    text-align: center;
+    padding:0 0 70px;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.curriculum-cards{
+    display: flex;
+    gap: 20px;
+}
+
+.curriculum-card1{
+    background-color: white;
+
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    text-align: center;
+    padding: 40px;
+}
+
+.curriculum-card2{
+    background-color: white;
+
+    border: 0.94px solid rgb(255, 244, 220);
+    border-radius: 18.86px;
+    
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    
+    text-align: center;
+    padding: 40px;
+}
+.curriculum-card3{
+
+    box-sizing: border-box;
+    border: 0.94px solid rgb(242, 232, 255);
+    border-radius: 18.86px;
+
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+
+    text-align: center;
+    padding: 40px;
+}
+
+.curriculum-card1 p,.curriculum-card2 p,.curriculum-card3 p{
+    line-height: 25px;
+    color: #808080;
+    padding: 10px 0 30px;
+}
+.card-title{
+    padding:35px 0;
+    font-size: 1.625rem;
+    font-weight: 700;
+}
+.read-more-container{
+    padding-bottom: 20px;
+}
+.read-more{
+    text-decoration: none;
+    font-weight: 700;
 }
