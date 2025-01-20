@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #F7F7F7;
+  }
+*{
+    margin: 0;
+    padding: 0;
+}
+/* shared styles  */
+
+.display-flex{
+    display: flex;
+}
+
+.fixed-width{
+    width: 1235px;
+    margin: 20px auto;
+}
+
+.btn-primary{
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+    padding: 10px 40px;
+    border: none;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+.orange{
+    color: #FEA301;
+}
+.blue{
+    color: #01ACFD;
+}
+.green{
+    color: #05D4DF;
+}
+.purple{
+    color: #5D58EF;
+}
+/* header styles */
+.logo{
+    gap: 10px;
+    align-items: center;
+}
+.logo-title{
+    font-weight: bold;
+    font-size: 2rem;
+}
+.nav-contain{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items{
+    list-style-type: none;
+    gap: 30px;
+}
+.nav-items li a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+.btn1{
+    background-color: #FEA301;
+    font-weight: 600;
+}
+
+/* banner styles  */
+.banner{
+    margin: 40px 0 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.title-desc{
+    text-align: justify;
+}
+.banner-title{
+    font-size: 3.6rem;
+    font-weight: 700;
+}
+.banner-desc{
+    font-size: 1.25rem;
+    width: 85%; 
+    margin: 20px 0; 
+}
