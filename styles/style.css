@@ -134,6 +134,8 @@
 
 
 /* standard curriculam section  */
+
+
 .curriculum-container{
     background-image: url('../assets/bg.png');
     background-repeat: no-repeat;
@@ -141,6 +143,7 @@
     position: center;
     padding: 50px 0;
 }
+
 .curiculam-title{
     text-align: center;
     padding-bottom: 70px;
@@ -244,3 +247,109 @@
 }
 
 /* card-section responsive  */
+
+/* stories container start  */
+
+.stories-container{
+    background: url('../assets/bg.png'),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    background-repeat: repeat;
+    background-size: contain;
+    position: center;
+    padding:60px 0;
+}
+.stories-title{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    padding-bottom: 80px;
+}
+.stories-cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+.stories-card1{
+    background-color: white;
+    border-radius: 16px;
+    position: relative;
+}
+.card1-img img{
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    background:#D9D9D9;
+}
+.stories-card-btn{
+    border-radius: 48px;
+    background-color: #3CD8E8;
+    color: white;
+    position: absolute;
+    padding: 15px 25px;
+    left: 38px;
+    top: 357px;
+    border: none;
+}
+.stories-title-desc{
+    padding: 50px 80px 30px 35px;
+}
+.stories-card-title{
+    font-size: 25px;
+    line-height: 35px;
+    padding-bottom: 40px;
+}
+.stories-card-desc{
+    color: #666666;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+    /* mini card section  */
+
+    .mini-cards-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+        
+    }
+
+.btn-story-1{
+    background-color: #95B226;
+    border-radius: 48px;
+    color: white;
+    border: none;
+    position: absolute;
+    padding: 15px 25px;
+    left: 38px;
+    top: 155px;
+
+}
+.mini-card1{
+    position: relative;
+    background-color: white;
+    border-radius: 16px;
+}
+.mini-card-title{
+    padding: 37px 54px 33px 37px;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 30px;
+}
+.btn-purple{
+    background-color: #5D58F0;
+}
+.btn-orange{
+    background-color: #FEA301;
+}
+.btn-green{
+    background-color: #01ACFD;
+}
+.view-all{
+    text-align: center;
+    padding-top: 80px;
+}
+
+@media screen  and (max-width:800px) {
+    .stories-card1{
+        display: none;
+    }
+}
