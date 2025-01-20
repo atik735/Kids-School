@@ -10,6 +10,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 /* shared styles  */
 
@@ -18,7 +19,7 @@
 }
 
 .fixed-width{
-    width: 1235px;
+    max-width: 1235px;
     margin: 20px auto;
 }
 
@@ -48,6 +49,7 @@
     gap: 10px;
     align-items: center;
 }
+
 .logo-title{
     font-weight: bold;
     font-size: 2rem;
@@ -88,4 +90,44 @@
     font-size: 1.25rem;
     width: 85%; 
     margin: 20px 0; 
+}
+.humbergur{
+    width: 40px;
+    display: none;
+}
+/* header section responsive  */
+@media screen and (max-width:800px) {
+    .quicksand-font{
+        background-color: white;
+    }
+    .logo-title{
+        display: none;
+    }
+    .nav-contain{
+        border: 1px solid #FEA301;
+        padding: 20px;
+    }
+    .nav-items,.btn1{
+        display: none;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .title-desc{
+        text-align: center;
+    }
+    .banner-title{
+        font-size: 2rem;
+    }
+    .banner-desc{
+        width: 90%;
+        place-self: center;
+    }
+    .banner img{
+        width: 100%;
+        padding: 0 15px;
+    }
+    .humbergur{
+        display: block;
+    }
 }
