@@ -140,7 +140,6 @@
     background-size: contain;
     position: center;
     padding: 50px 0;
-    height: 879px;
 }
 .curiculam-title{
     text-align: center;
@@ -154,6 +153,7 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
+    padding-bottom: 40px;
 }
 
 .curriculum-card1{
@@ -209,7 +209,20 @@
     text-decoration: none;
     font-weight: 700;
 }
-
+.chevron-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 40px;
+}
+.chevron{
+    max-width: 50px;
+    color: white;
+    border-radius: 50%;
+    background-color: #FEA301;
+    padding: 10px;
+}
 
 /* card-section responsive  */
 
@@ -224,6 +237,9 @@
     }
     .curriculum-container{
         background-size: cover;
+    }
+    .chevron-container{
+        display: none;
     }
 }
 
