@@ -344,7 +344,6 @@
     font-size: 1.152rem;
     line-height: 30px;
 }
-
 .btn-story-1{
     background-color: #95B226;
     border-radius: 48px;
@@ -507,4 +506,10 @@ footer{
         align-items: flex-start;
         margin-top: 28px;
     }
+}
+marquee{
+    padding: 10px;
+    width: 100%;
+    background-color: #DB4437;
+    color: white;
 }
