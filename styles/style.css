@@ -378,7 +378,7 @@
 
 
     /* our story responsive */
-@media screen  and (max-width:800px) {
+@media screen  and (max-width:576px) {
     .card1-img{
         display: none;
     }
@@ -395,16 +395,53 @@
 
 .btn-story-1{
     margin-left: 10px;
-    padding: 20px;
-}
+    padding: 15px;
 }
 
-@media screen  and (min-width:250px) and (max-width:370px){
+.btn-desc{
+    padding-top: 53%;
+}
+.card1-btn{
+    padding-top: 51%;
+}
+}
+/* responsive */
+@media screen and (max-width:370px){
 .btn-story-1{
     margin-left: 10px;
     padding: 5px;
 }
 }
+ /* responsive */
+
+@media screen and (min-width:576px)  and (max-width:800px) {
+    .card1-img{
+        display: none;
+    }
+.mini-cards-container{
+    gap: 10px;
+}
+.stories-cards{
+    padding: 10px;
+    grid-template-columns: repeat(2,100%);
+}
+.mini-card-title{
+    padding: 20px 10px;
+}
+
+.btn-story-1{
+    margin-left: 10px;
+    padding: 15px;
+}
+
+.btn-desc{
+    padding-top: 55%;
+}
+.card1-btn{
+    padding-top: 51%;
+}
+}
+/* responsive */
 
 
 footer{
