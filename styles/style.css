@@ -249,6 +249,13 @@
 
 /* card-section responsive  */
 
+.marquee-bg{
+    padding: 10px;
+    width: 100%;
+    background-color: #DB4437;
+    color: white;
+}
+
 /* stories container start  */
 
 .stories-container{
@@ -367,6 +374,7 @@
     text-align: center;
     padding-top: 80px;
 }
+
 
 
     /* our story responsive */
@@ -506,10 +514,4 @@ footer{
         align-items: flex-start;
         margin-top: 28px;
     }
-}
-marquee{
-    padding: 10px;
-    width: 100%;
-    background-color: #DB4437;
-    color: white;
 }
