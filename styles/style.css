@@ -266,31 +266,27 @@
 .stories-cards{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 20px;
+    gap: 15px;
 }
 
-.stories-card1{
-    background-color: white;
+.card1-img{
     border-radius: 16px;
-    position: relative;
-}
-.card1-img img{
-    border-top-left-radius: 16px;
-    border-top-right-radius: 16px;
-    background:#D9D9D9;
+    background: url('../assets/story-1.png'),rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 .stories-card-btn{
     border-radius: 48px;
     background-color: #3CD8E8;
     color: white;
-    position: absolute;
+    position: static;
     padding: 15px 25px;
-    left: 38px;
-    top: 357px;
+    margin-top: 59%;
+    margin-left: 10%;
     border: none;
 }
 .stories-title-desc{
-    padding: 50px 80px 30px 35px;
+    padding:50px 80px 30px 35px;
 }
 .stories-card-title{
     font-size: 25px;
@@ -308,32 +304,56 @@
     .mini-cards-container{
         display: grid;
         grid-template-columns: repeat(2,1fr);
-        gap: 20px;
-        
+        gap: 15px;
     }
+
+
+.mini-card1{
+    border-radius: 16px;
+
+    background: url('../assets/story-2.png'),rgb(255, 255, 255);
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.mini-card2{
+    border-radius: 16px;
+    background: url('../assets/story-3.png'),rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.mini-card3{
+    border-radius: 16px;
+    background: url('../assets/story-4.png'),rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.mini-card4{
+    border-radius: 16px;
+    background: url('../assets/story-5.png'),rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.btn-desc{
+    padding-top: 53%;
+}
+.mini-card-title{
+    padding: 30px 30px 10px;
+    font-weight: 700;
+    font-size: 1.152rem;
+    line-height: 30px;
+}
 
 .btn-story-1{
     background-color: #95B226;
     border-radius: 48px;
     color: white;
     border: none;
-    position: absolute;
-    padding: 1rem 1.25rem;
-    left: 38px;
-    top: 155px;
+    position: static;
+    margin-left: 30px;
+    padding: 15px 20px;
+}
 
-}
-.mini-card1{
-    position: relative;
-    background-color: white;
-    border-radius: 16px;
-}
-.mini-card-title{
-    padding: 37px 54px 33px 37px;
-    font-size: 1rem;
-    font-weight: 700;
-    line-height: 30px;
-}
 .btn-purple{
     background-color: #5D58F0;
 }
@@ -347,9 +367,9 @@
     text-align: center;
     padding-top: 80px;
 }
-
+    /* our story responsive */
 @media screen  and (max-width:800px) {
-    .stories-card1{
+    .card1-img{
         display: none;
     }
 .mini-cards-container{
@@ -362,11 +382,16 @@
 .mini-card-title{
     padding: 20px 10px;
 }
-.btn-story-1{
-    padding: 8px 10px;
-    left: 10px;
-    top: 93px;
 
+.btn-story-1{
+    margin-left: 10px;
+    padding: 20px;
+}
 }
 
+@media screen  and (min-width:250px) and (max-width:340px){
+.btn-story-1{
+    margin-left: 10px;
+    padding: 5px;
+}
 }
