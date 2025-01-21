@@ -31,6 +31,7 @@
     border: none;
     font-weight: 700;
     font-size: 1.25rem;
+    cursor: pointer;
 }
 .orange{
     color: #FEA301;
@@ -335,7 +336,7 @@
     background-size: contain;
 }
 .btn-desc{
-    padding-top: 53%;
+    padding-top: 54%;
 }
 .mini-card-title{
     padding: 30px 30px 10px;
@@ -367,6 +368,8 @@
     text-align: center;
     padding-top: 80px;
 }
+
+
     /* our story responsive */
 @media screen  and (max-width:800px) {
     .card1-img{
@@ -389,9 +392,119 @@
 }
 }
 
-@media screen  and (min-width:250px) and (max-width:340px){
+@media screen  and (min-width:250px) and (max-width:370px){
 .btn-story-1{
     margin-left: 10px;
     padding: 5px;
 }
+}
+
+
+footer{
+    background-color: #41d77376;
+}
+.footer-container{
+    padding: 90px 0;
+    justify-content: space-around;
+    align-items: center;
+}
+.edu-logo-desc{
+    width: 27%;
+}
+.edu-logo-desc p{
+    color: rgb(28, 145, 247);
+    
+    line-height: 24px;
+}
+
+.logoandtitle{
+    align-items: center;
+    gap: 10px;
+    color: rgb(0, 136, 255);
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+.nav-footer h3{
+    font-size: 1.5rem;
+    color: rgb(0, 136, 255);
+    margin-bottom: 20px;
+}
+.nav-footer ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.nav-footer ul li a{
+    text-decoration: none;
+    color: rgb(0, 136, 255);
+}
+
+.social{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    gap: 20px;
+}
+
+.social h2{
+    color: rgb(0, 136, 255);
+}
+
+.social-icons { 
+    list-style: none;
+    padding: 0; 
+    display: flex; 
+    gap: 10x; 
+} 
+
+.social-icons li { 
+    padding: 5px; 
+    border-radius: 50%; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+ }
+
+.social-icons li a { 
+    color: #fff; 
+    text-decoration: none; 
+    font-size: 15px; 
+} 
+
+.fa-dribbble { 
+    background-color: #EA4C89;
+    padding: 10px;
+    
+ }
+.fa-facebook-f { 
+    background-color: #1877F2;
+    padding: 10px 15px;
+}
+.fa-google-plus-g { 
+    background-color: #DB4437;
+    padding: 9px;
+}
+.fa-twitter {
+     background-color: #1DA1F2;
+    padding: 10px;
+    }
+
+
+@media screen and (max-width:800px) {
+      .footer-container{
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 20px;
+      }  
+
+      .edu-logo-desc{
+        width: 90%;
+        margin-bottom: 28px;
+    }
+    .social{
+        align-items: flex-start;
+        margin-top: 28px;
+    }
 }
